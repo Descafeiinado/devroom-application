@@ -1,0 +1,12 @@
+name: BasicChest
+version: '${project.version}'
+main: net.heavenus.chest.BasicChest
+api-version: 1.18
+load: STARTUP
+authors: [ HeavenUS ]
+description: Each player has their own chest, you can open this chest by typing /chest. Plugin developed for HeavenUS application for DevRoom.
+website: https://github.com/Descafeiinado
+
+commands:
+  chest:
+

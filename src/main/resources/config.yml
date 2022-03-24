@@ -1,0 +1,34 @@
+# BasicChest v1.0
+# Developed by HeavenUS (cafe)
+# https://github.com/Descafeiinado
+#
+# Permissions:
+#  basicchests.cmd.chest - Basic permission, grant access for user to user /chest command.
+
+# Plugin configuration
+
+# Here is where you change simple things in the plugin.
+menu:
+  # The size of the menu, 54 is the default and also known as a double chest sized menu.
+  # To change this, provide a number between 9 and 54. That is a 9 multiple.
+  size: 54
+  # The title of the menu.
+  # Placeholders:
+  # {player} - The player's name.
+  title: 'Chest: {player}'
+
+# Here is where you must configure the MongoDB information, else the plugin wouldn't work properly.
+mongodb:
+  # Provide a Connection URI of MongoDB for the plugin to connect to.
+  # Learn more about MongoDB Connection URI here: https://docs.mongodb.com/manual/reference/connection-string/
+  uri: ''
+
+  # Provide a database name for the plugin to create due to organization issues.
+  database: 'BasicChest'
+
+# Herer is where you configure some messages that are being used in the plugin.
+language:
+  # The message that is being displayed when a player tries to use a command while not having the permission.
+  no-permission: '&cYou do not have permission to use this command.'
+  # The message that is being displayed when a player use the command and open their chest successfully.
+  opening: '&aOpening your chest...'
